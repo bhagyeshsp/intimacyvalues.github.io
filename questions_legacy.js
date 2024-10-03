@@ -1,201 +1,187 @@
 questions = [
-    // Attract
+    // Masculine vs Feminine Scenarios
     {
-        "id":1,
-        "question": "I would have relationships with men.",
+        "id": 1,
+        "question": "At a party, I find myself naturally drawn to physically muscular, assertive, and confident individuals.",
         "effect": {
-            "attract": 1,
+            "masculine": 2,
+            "feminine": -1
         }
     },
     {
-        "id":2,
-        "question": "I could imagine myself in a sexual scenario with a man.",
+        "id": 2,
+        "question": "I feel more comfortable around soft-spoken, gentle individuals with a graceful presence.",
         "effect": {
-            "attract": 1,
+            "feminine": 2,
+            "masculine": -1
         }
     },
     {
-        "id":3,
-        "question": "I find myself attracted to muscular bodies.",
+        "id": 3,
+        "question": "I prefer intense physical activities (like weightlifting) over calming activities (like yoga).",
         "effect": {
-            "attract": 1,
+            "masculine": 1
         }
     },
     {
-        "id":4,
-        "question": "The benis only makes it better! (I like dick)",
+        "id": 4,
+        "question": "I'm attracted to emotional warmth and nurturing qualities in a partner.",
         "effect": {
-            "attract": 1,
-        }
-    },
-    {
-        "id":5,
-        "question": "I find myself attracted to soft skin, feminine clothing.",
-        "effect": {
-            "attract": -1,
-        }
-    },
-    {
-        "id":6,
-        "question": "I could imagine myself in a sexual scenario with a woman.",
-        "effect": {
-            "attract": -1,
-        }
-    },
-    {
-        "id":7,
-        "question": "I would have relationships with women.",
-        "effect": {
-            "attract": -1,
+            "feminine": 2,
+            "masculine": -1
         }
     },
 
-    // Drive
+    // Hypersexual vs Hyposexual Scenarios
     {
-        "id":8,
-        "question": "I sometimes find myself dreaming about lewd scenarios.",
+        "id": 5,
+        "question": "Even after a long, tiring day, I'm usually eager for intimate activities.",
+        "effect": {
+            "drive": 2
+        }
+    },
+    {
+        "id": 6,
+        "question": "During free time, I often find myself thinking about or wanting to engage in sexual activities.",
+        "effect": {
+            "drive": 2
+        }
+    },
+    {
+        "id": 7,
+        "question": "Having sex multiple times a week would be ideal for me.",
+        "effect": {
+            "drive": 1
+        }
+    },
+    {
+        "id": 8,
+        "question": "I feel comfortable engaging with explicit content on social media.",
         "effect": {
             "drive": 1,
-        }
-    },
-    {
-        "id":9,
-        "question": "I would have sex on a regular basis.",
-        "effect": {
-            "drive": 1,
-        }
-    },
-    {
-        "id":10,
-        "question": "I masturbate at least once a day.",
-        "effect": {
-            "drive": 1,
-        }
-    },
-    {
-        "id":11,
-        "question": "I watch pornographic content.",
-        "effect": {
-            "drive": 1,
-        }
-    },
-    {
-        "id":12,
-        "question": "I find myself repulsed by the idea of sex.",
-        "effect": {
-            "drive": -2,
-        }
-    },
-    {
-        "id":13,
-        "question": "I could say 'chastity' is my virtue.",
-        "effect": {
-            "drive": -2,
+            "deviance": 1
         }
     },
 
-    // Dominant
+    // Dominant vs Submissive Scenarios
     {
-        "id":14,
-        "question": "I like the idea of having power over someone.",
+        "id": 9,
+        "question": "I prefer taking the lead and being in control during intimate moments.",
+        "effect": {
+            "dominant": 2,
+            "submissive": -1
+        }
+    },
+    {
+        "id": 10,
+        "question": "I enjoy when my partner takes control in intimate situations.",
+        "effect": {
+            "submissive": 2,
+            "dominant": -1
+        }
+    },
+    {
+        "id": 11,
+        "question": "The idea of planning and controlling an entire evening's activities appeals to me.",
+        "effect": {
+            "dominant": 1
+        }
+    },
+    {
+        "id": 12,
+        "question": "I'm excited by the idea of power exchange in intimate settings.",
         "effect": {
             "dominant": 1,
-        }
-    },
-    {
-        "id":15,
-        "question": "I (would) enjoy someone having control over me.",
-        "effect": {
-            "dominant": -1,
-        }
-    },
-    {
-        "id":16,
-        "question": "I wouldn't be comfortable with getting dominated.",
-        "effect": {
-            "dominant": 1,
+            "submissive": 1,
+            "deviance": 1
         }
     },
 
-    // Deviance
+    // Deviant vs Pure Scenarios
     {
-        "id":17,
-        "question": "I have frowned-upon kinks/fetishes.",
+        "id": 13,
+        "question": "I'm curious about exploring kinky or alternative sexual practices.",
+        "effect": {
+            "deviance": 2,
+            "pure": -1
+        }
+    },
+    {
+        "id": 14,
+        "question": "I'm open to incorporating toys or light bondage in intimate situations.",
         "effect": {
             "deviance": 1,
+            "pure": -1
         }
     },
     {
-        "id":18,
-        "question": "I belong to sub-communities associated with deviances.",
+        "id": 15,
+        "question": "I would be comfortable attending events where alternative sexual expressions are practiced.",
         "effect": {
-            "deviance": 1,
+            "deviance": 2,
+            "hedonist": 1
         }
     },
     {
-        "id":19,
-        "question": "I (would) enjoy degrading or getting degraded.",
+        "id": 16,
+        "question": "I prefer traditional, vanilla sexual experiences.",
         "effect": {
-            "deviance": 1,
-        }
-    },
-    {
-        "id":20,
-        "question": "I (would) enjoy inflicting pain or having pain inflicted on me.",
-        "effect": {
-            "deviance": 1,
-        }
-    },
-    {
-        "id":21,
-        "question": "I consider myself vanilla.",
-        "effect": {
-            "deviance": -2,
-        }
-    },
-    {
-        "id":22,
-        "question": "I find most of fetishes disgusting.",
-        "effect": {
-            "deviance": -1,
-        }
-    },
-    {
-        "id":23,
-        "question": "I might be too boring for some people in the bedroom.",
-        "effect": {
-            "deviance": -1,
+            "pure": 2,
+            "deviance": -1
         }
     },
 
-    // Affect
+    // Affective vs Hedonist Scenarios
     {
-        "id":24,
-        "question": "I could only be lewd to my partner(s).",
+        "id": 17,
+        "question": "I would consider a no-strings-attached encounter if I felt attracted to someone.",
         "effect": {
-            "affect": 1,
-        }
-    },
-    {
-        "id":25,
-        "question": "Sex should be a romantic topic.",
-        "effect": {
-            "affect": 1
-        }
-    },
-    {
-        "id":26,
-        "question": "I am okay with the idea of hook-ups or one-night stands.",
-        "effect": {
+            "hedonist": 2,
             "affect": -1
         }
     },
     {
-        "id":27,
-        "question": "Sex is more about the pleasure than the intimacy.",
+        "id": 18,
+        "question": "I need a strong emotional connection before considering physical intimacy.",
         "effect": {
+            "affect": 2,
+            "hedonist": -1
+        }
+    },
+    {
+        "id": 19,
+        "question": "I'm open to the idea of non-monogamous or open relationships.",
+        "effect": {
+            "hedonist": 2,
             "affect": -1
+        }
+    },
+    {
+        "id": 20,
+        "question": "Physical intimacy should only happen within committed relationships.",
+        "effect": {
+            "affect": 2,
+            "hedonist": -2
+        }
+    },
+
+    // Additional Scenarios
+    {
+        "id": 21,
+        "question": "I would be comfortable exploring intimate activities in a group setting (like a couples' workshop).",
+        "effect": {
+            "hedonist": 1,
+            "deviance": 1,
+            "drive": 1
+        }
+    },
+    {
+        "id": 22,
+        "question": "I enjoy switching between different roles during intimate encounters.",
+        "effect": {
+            "dominant": 1,
+            "submissive": 1,
+            "deviance": 1
         }
     }
-
 ];
